@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+  <link href="//db.onlinewebfonts.com/c/0923ee644c97a87d70269aa80a6f1e79?family=The+Historia+Demo" rel="stylesheet" type="text/css"/>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+  <header>
+    <div class="menu-toggler" id="home">
+      <div class="bar half start"></div>
+      <div class="bar"></div>
+      <div class="bar half end"></div>
+    </div>
+    <nav class="top-nav">
+      <ul class="nav-list">
+        <li>
+          <a href="#home" class="nav-link">Home</a>
+        </li>
+        <li>
+          <a href="#about" class="nav-link">About</a>
+        </li>
+        <li>
+          <a href="#projects" class="nav-link">Projects</a>
+        </li>
+        <li>
+          <a href="#contacts" class="nav-link">Contacts</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="landing-text">
+      <h1>Ha Nguyen</h1>
+      <h6>Web Developer</h6>
+    </div>
+  </header>
+  <section class="about" id="about">
+    <div class="container">
+      <div class="profile-img" data-aos="fade-right" data-aos-delay="300">
+        <img src="images/profile.jpg" alt="">
+      </div>
+      <div class="about-details" data-aos="fade-left" data-aos-delay="600">
+        <div class="about-heading">
+          <h1>About Me</h1>
+        </div>
+        <p>I recently graduated with a Computer Engineering major and am 
+          currently taking the fullstack flex course at Thinkful. I love 
+          learning about new technologies and creating useful software 
+          applications. My experiences focus on web development using Javascript,
+           React, Nodejs, etc. I love working on a team of great 
+          programmers to create great products.
+          Beside coding, I also enjoy outdoor activities and drinking tea!
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <div class="container">
+      <div class="section-heading">
+        <h1>Projects</h1>
+        <h6>View some of my recent works</h6>
+      </div>
+      <div class="project-item">
+        <div class="project-img has-margin-right" data-aos="fade-right" data-aos-delay="300">
+          <img src="images/Screenshot-PoGo-Forum.png" alt="">
+        </div>
+        <div class="project-description" data-aos="fade-left" data-aos-delay="600">
+          <h1>Pokemon Go Forum</h1>
+          <p>This is a Forum for Pokemon Go where users can get all the related infomation. 
+            User can also post threads, comments and delete threads, comments.</p>
+          <p>Tech Stacks: HTML, CSS, Javascript, React, Node.js, Express, PostgresSQL</p>
+          <div>
+            <a target="_blank" href="https://github.com/HaNguyen0096/pokemongo-forum" class="viewLink">GitHub</a>
+          </div>
+          <div>
+            <a target="_blank" href="https://hanguyen-pokemongo-forum.now.sh/" class="viewLink">Visit Website</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-item">
+        <div class="project-description has-margin-right" data-aos="fade-right" data-aos-delay="900">
+          <h1>My Travels App</h1>
+          <p>This is a Travel Logs App that help users to saved all the travel 
+            logs they created. And also alow them to view other people travel logs. 
+            Users can see all the logs in form of Map View or List View.</p>
+          <p>Tech Stacks: HTML, CSS, Javascript, React, Node.js, Express, PostgresSQL</p>
+          <div></div>
+          <a target="_blank" href="https://github.com/HaNguyen0096/mytravel" class="viewLink">GitHub</a>
+          <div></div>
+          <a target="_blank" href="https://hanguyen-mytravels.now.sh/" class="viewLink">Visit Website</a>
+        </div>
+        <div class="project-img" data-aos="fade-left" data-aos-delay="1200">
+          <img src="images/mytravels-preview.png" alt="">
+        </div>
+      </div>
+      <div class="project-item">
+        <div class="project-img has-margin-right" data-aos="fade-right" data-aos-delay="1500">
+          <img src="images/quizApp.png" alt="">
+        </div>
+        <div class="project-description" data-aos="fade-left" data-aos-delay="1800">
+          <h1>GRE-QuizApp</h1>
+          <p>An app that helps you practice for you GRE test.</p>
+          <p>Tech Stacks:  HTML, CSS, Javascript and jquery.</p>
+          <div>
+            <a target="_blank" href="https://github.com/HaNguyen0096/GREtest-QuizApp" class="viewLink">GitHub</a>
+          </div>
+          <div>
+            <a target="_blank" href="https://hanguyen0096.github.io/GREtest-QuizApp" class="viewLink">Visit Website</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contacts" id="contacts">
+    <div class="container">
+      <div class="section-heading">
+        <h1>Contacts</h1>
+        <h6>Let's work together</h6>
+      </div>
+      <ul class="info">
+        <li><a class="contactLink" target="_blank" href="mailto:hanguyen.0096@gmail.com">Email</a></li>
+        <li><a class="contactLink" target="_blank" href="https://github.com/HaNguyen0096">GitHub</a></li>
+        <li><a class="contactLink" target="_blank" href="https://www.linkedin.com/in/ha-nguyen96">Linkedin</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="copyright">
+    <div class="up" id="up">
+      <i class="fas fa-chevron-up"></i>
+    </div>
+    <p>&copy; 2020 Ha Nguyen</p>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="index.js"></script>
+</body>
+</html>
