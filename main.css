@@ -445,7 +445,7 @@ input[type="submit"]:hover{
 
 @media screen and (min-width: 768px) {
   .landing-text h1{
-    font-size: 22rem;
+    font-size: 19rem;
   }
 
   .landing-text h6{
@@ -513,7 +513,7 @@ input[type="submit"]:hover{
 @media screen and (min-width: 1200px) {
 
   .landing-text h1{
-    font-size: 26rem;
+    font-size: 22rem;
   }
 
   .landing-text h6{
